@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request
 from flask_restful import Resource, Api
 
@@ -9,4 +10,4 @@ class Greeting (Resource):
         return 'Hello World!'
 
 api.add_resource(Greeting, '/') # Route_1
-app.run('0.0.0.0','8080')
+APP.run(host='0.0.0.0', port=os.environ.get('PORT', 8080))
