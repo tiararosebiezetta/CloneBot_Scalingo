@@ -16,6 +16,9 @@
 		"group_ids": {
 			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')"
 		},
+		"PORT": {
+			"value": "8080"
+		},
 		"gclone_para_override": {
 			"description": "Leave this if you don't know how to use it",
 			"required": false
