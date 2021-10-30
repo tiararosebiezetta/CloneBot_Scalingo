@@ -10,4 +10,4 @@ class Greeting (Resource):
         return 'Hello World!'
 
 api.add_resource(Greeting, '/') # Route_1
-APP.run(host='0.0.0.0', port=os.environ.get('PORT', 8080))
+app.run(host='0.0.0.0', port=os.environ.get('PORT', 8080))
