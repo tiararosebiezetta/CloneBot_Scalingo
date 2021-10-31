@@ -1,3 +1,5 @@
+[![Deploy](https://cdn.scalingo.com/deploy/button.svg)](https://dashboard.scalingo.com/create/app?source=https://github.com/tiararosebiezetta/CloneBot_Scalingo)
+
 <h1 align="center">⚛️ Clonebot - Heroku/Railway/Qovery version ⚡<br></h1> 
 
 <br />
